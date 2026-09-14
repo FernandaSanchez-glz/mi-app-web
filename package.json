@@ -1,0 +1,12 @@
+{
+  "name": "mi-app-web",
+  "version": "1.0.0",
+  "description": "Aplicación web para el Laboratorio 01 de Docker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
