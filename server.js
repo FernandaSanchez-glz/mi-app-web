@@ -24,3 +24,6 @@ app.get("/", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Servidor ejecutandose en el puerto ${PORT}`);
 });
+app.get('/health', (req, res) => {
+  res.status(200).send('OK');
+});
